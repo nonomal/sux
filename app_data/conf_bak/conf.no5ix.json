@@ -22,7 +22,7 @@
   "search-plus": {
     "enable": 1,
     "buildin": {
-      "_Default": [
+      "Default": [
         "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l=",
         "https://www.baidu.com/#ie=UTF-8&wd=REPLACEME"
       ],
