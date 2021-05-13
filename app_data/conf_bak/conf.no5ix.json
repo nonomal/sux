@@ -1,6 +1,5 @@
 ﻿{
   "File-Description": "你可以在custom块里覆盖所有的buildin(内置)配置或者直接修改buildin配置, 改了之后重启sux生效.You can override all the buildin conf at custom block or buildin conf itself, take effect after sux restart. ",
-  "check-update-on-startup": 1,
   "theme": {
     "dark": {
       "sux_width": 620,
@@ -23,7 +22,7 @@
     "enable": 1,
     "buildin": {
       "Default": [
-        "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l="
+        "https://www.baidu.com/#ie=UTF-8&wd=REPLACEME"
       ],
       "Google & Baidu": [
         "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l=",
@@ -83,14 +82,6 @@
       "sux": "https://github.com/no5ix/sux"
     },
     "custom": {
-      "sw": "StartSuxAhkWithWin",
-      "rd": "ReloadSux",
-      "ahk": "https://wyagd001.github.io/zh-cn/docs/AutoHotkey.htm",
-      "blog": "C:\\Program Files\\Microsoft VS Code\\Code.exe D:\\Documents\\github\\no5ix.github.io",
-      "proj": "C:\\Program Files\\Microsoft VS Code\\Code.exe D:\\Documents\\github\\sux",
-      "test.py": "C:\\Program Files\\Microsoft VS Code\\Code.exe C:\\Users\\Administrator\\Desktop\\test.py",
-      "test.go": "C:\\Program Files\\Microsoft VS Code\\Code.exe C:\\Users\\Administrator\\Desktop\\test.go",
-      "test.cpp": "C:\\Program Files\\Microsoft VS Code\\Code.exe C:\\Users\\Administrator\\Desktop\\test.cpp"
     }
   },
   "replace-text": {
@@ -124,94 +115,110 @@
     "enable": 1,
     "action": {
       "TopHalfLeftEdge": {
-        "ctrl_8": "C:\\Program Files (x86)\\Netease\\CloudMusic\\cloudmusic.exe"
+        "ctrl_8": "C:\\Program Files (x86)\\Netease\\CloudMusic\\cloudmusic.exe",
+        "wheeldown": "GoBottom",
+        "wheelup": "GoTop",
+        "MButton": "MaxWindow"
       },
       "TopHalfRightEdge": {
-        "ctrl_8": "OpenFileExplorer"
+        "ctrl_8": "OpenFileExplorer",
+        "wheeldown": "GoBottom",
+        "wheelup": "GoTop",
+        "MButton": "MinWindow"
       },
       "BottomHalfLeftEdge": {
-        "ctrl_8": "ReopenLastTab"
+        "ctrl_8": "ReopenLastTab",
+        "MButton": "OpenTaskView",
+        "wheeldown": "GotoNextDesktop",
+        "wheelup": "GotoPreDesktop"
       },
       "BottomHalfRightEdge": {
-        "ctrl_8": "RefreshTab"
+        "ctrl_8": "RefreshTab",
+        "MButton": "OpenTaskView",
+        "wheeldown": "GotoNextDesktop",
+        "wheelup": "GotoPreDesktop"
       },
       "LeftHalfBottomEdge": {
-        "ctrl_8": "OpenTaskView"
+        "ctrl_8": "OpenTaskView",
+        "MButton": "MoveWindowToLeftSide"
       },
       "LeftHalfTopEdge": {
         "ctrl_8": "MoveWindowToLeftSide",
         "wheeldown": "VolumeDown",
-        "wheelup": "VolumeUp"
+        "wheelup": "VolumeUp",
+        "MButton": "MoveWindowToLeftSide"
       },
       "RightHalfTopEdge": {
-        "ctrl_8": "MoveWindowToRightSide"
+        "ctrl_8": "MoveWindowToRightSide",
+        "MButton": "MoveWindowToRightSide"
       },
       "RightHalfBottomEdge": {
-        "ctrl_8": "OpenActionCenter"
+        "ctrl_8": "OpenActionCenter",
+        "MButton": "MoveWindowToRightSide"
       }
     }
   },
   "hotkey": {
     "enable": 1,
     "buildin": {
-      "alt_space": "QuickEntry.ShowQuickEntryMenu",
+      "shift_space": "QuickEntry.ShowQuickEntryMenu",
       "ctrl_8": "SimulateClickDown",
       "ctrl_shift_alt_m": "MaxMinWindow",
-      "rshift": "SwitchInputMethodAndDeleteLeft",
-      "capslock": "send {Esc}",
       "capslock_w": "SelectCurrentWord",
-      "capslock_shift_w": "SelectCurrentLine",
+      "capslock_alt_w": "SelectCurrentLine",
       "capslock_`": "SwitchCapsState",
       "capslock_tab": "IndentCurrentLine",
       "capslock_v": "send +{Ins}",
-      "capslock_shift_v": "send +6",
+      "capslock_alt_v": "send +6",
       "capslock_r": "send ^y",
       "capslock_enter": "InsertLineBelow",
-      "capslock_shift_enter": "InsertLineAbove",
+      "capslock_alt_enter": "InsertLineAbove",
       "capslock_backspace": "DeleteCurrentLine",
-      "capslock_f": "send ^+{Home}",
-      "capslock_shift_f": "send ^+{End}",
-      "capslock_c": "send ^/",
-      "capslock_e": "send {Enter}",
-      "capslock_s": "SmartSelectWithSymbol",
-      "capslock_d": "send {Del}",
-      "capslock_shift_d": "send {BS}",
+      "capslock_c": "send ^c",
+      "capslock_e": "send {Up}",
+      "capslock_alt_e": "send +{Up}",
+      "capslock_s": "send {Left}",
+      "capslock_alt_s": "send +{Left}",
+      "capslock_f": "send {Right}",
+      "capslock_alt_f": "send +{Right}",
+      "capslock_d": "send {Down}",
+      "capslock_alt_d": "send +{Down}",
       "capslock_y": "send +8",
-      "capslock_shift_y": "send +5",
+      "capslock_alt_y": "send +5",
       "capslock_u": "send +1",
-      "capslock_shift_u": "send +2",
+      "capslock_alt_u": "send +2",
       "capslock_h": "send {Left}",
-      "capslock_shift_h": "send +{Left}",
+      "capslock_alt_h": "send +{Left}",
       "capslock_j": "send {Down}",
-      "capslock_shift_j": "send +{Down}",
+      "capslock_alt_j": "send +{Down}",
       "capslock_k": "send {Up}",
-      "capslock_shift_k": "send +{Up}",
+      "capslock_alt_k": "send +{Up}",
       "capslock_l": "send {Right}",
-      "capslock_shift_l": "send +{Right}",
+      "capslock_alt_l": "send +{Right}",
       "capslock_p": "send +7",
-      "capslock_shift_p": "send +3",
+      "capslock_alt_p": "send +3",
       "capslock_i": "send ^{Left}",
-      "capslock_shift_i": "send +^{Left}",
+      "capslock_alt_i": "send +^{Left}",
       "capslock_o": "send ^{Right}",
-      "capslock_shift_o": "send +^{Right}",
+      "capslock_alt_o": "send +^{Right}",
       "capslock_9": "send [",
-      "capslock_shift_9": "send {{}",
+      "capslock_alt_9": "send {{}",
       "capslock_0": "send ]",
-      "capslock_shift_0": "send {}}",
+      "capslock_alt_0": "send {}}",
       "capslock_n": "send ^{BS}",
-      "capslock_shift_n": "send +{Home}{Del}",
+      "capslock_alt_n": "send +{Home}{Del}",
       "capslock_m": "send ^{Del}",
-      "capslock_shift_m": "send +{End}{Del}",
+      "capslock_alt_m": "send +{End}{Del}",
       "capslock_,": "send {Home}",
-      "capslock_shift_,": "send +{Home}",
+      "capslock_alt_,": "send +{Home}",
       "capslock_.": "send {End}",
-      "capslock_shift_.": "send +{End}",
+      "capslock_alt_.": "send +{End}",
       "capslock_;": "send _",
-      "capslock_shift_;": "send -",
+      "capslock_alt_;": "send -",
       "capslock_'": "send =",
-      "capslock_shift_'": "send +=",
+      "capslock_alt_'": "send +=",
       "capslock_/": "send \\",
-      "capslock_shift_/": "send +\\"
+      "capslock_alt_/": "send +\\"
     },
     "custom": {}
   }
