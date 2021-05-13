@@ -22,7 +22,7 @@
     "enable": 1,
     "buildin": {
       "Default": [
-        "https://www.baidu.com/#ie=UTF-8&wd=REPLACEME"
+        "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l="
       ],
       "Google & Baidu": [
         "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l=",
@@ -82,6 +82,14 @@
       "sux": "https://github.com/no5ix/sux"
     },
     "custom": {
+      "sw": "StartSuxAhkWithWin",
+      "rd": "ReloadSux",
+      "ahk": "https://wyagd001.github.io/zh-cn/docs/AutoHotkey.htm",
+      "blog": "C:\\Program Files\\Microsoft VS Code\\Code.exe D:\\Documents\\github\\no5ix.github.io",
+      "proj": "C:\\Program Files\\Microsoft VS Code\\Code.exe D:\\Documents\\github\\sux",
+      "test.py": "C:\\Program Files\\Microsoft VS Code\\Code.exe C:\\Users\\Administrator\\Desktop\\test.py",
+      "test.go": "C:\\Program Files\\Microsoft VS Code\\Code.exe C:\\Users\\Administrator\\Desktop\\test.go",
+      "test.cpp": "C:\\Program Files\\Microsoft VS Code\\Code.exe C:\\Users\\Administrator\\Desktop\\test.cpp"
     }
   },
   "replace-text": {
@@ -140,6 +148,8 @@
       },
       "LeftHalfBottomEdge": {
         "ctrl_8": "OpenTaskView",
+        "wheeldown": "VolumeDown",
+        "wheelup": "VolumeUp",
         "MButton": "MoveWindowToLeftSide"
       },
       "LeftHalfTopEdge": {
@@ -150,75 +160,76 @@
       },
       "RightHalfTopEdge": {
         "ctrl_8": "MoveWindowToRightSide",
-        "MButton": "MoveWindowToRightSide"
+        "MButton": "MoveWindowToRightSide",
+        "wheeldown": "send {PgDn}",
+        "wheelup": "send {PgUp}"
       },
       "RightHalfBottomEdge": {
         "ctrl_8": "OpenActionCenter",
-        "MButton": "MoveWindowToRightSide"
+        "MButton": "MoveWindowToRightSide",
+        "wheeldown": "send {PgDn}",
+        "wheelup": "send {PgUp}"
       }
     }
   },
   "hotkey": {
     "enable": 1,
     "buildin": {
-      "shift_space": "QuickEntry.ShowQuickEntryMenu",
+      "rshift": "SwitchInputMethodAndDeleteLeft",
+      "capslock": "send {Esc}",
+      "alt_space": "QuickEntry.ShowQuickEntryMenu",
       "ctrl_8": "SimulateClickDown",
       "ctrl_shift_alt_m": "MaxMinWindow",
       "capslock_w": "SelectCurrentWord",
-      "capslock_alt_w": "SelectCurrentLine",
+      "capslock_shift_w": "SelectCurrentLine",
       "capslock_`": "SwitchCapsState",
       "capslock_tab": "IndentCurrentLine",
       "capslock_v": "send +{Ins}",
-      "capslock_alt_v": "send +6",
+      "capslock_shift_v": "send +6",
       "capslock_r": "send ^y",
       "capslock_enter": "InsertLineBelow",
-      "capslock_alt_enter": "InsertLineAbove",
+      "capslock_shift_enter": "InsertLineAbove",
       "capslock_backspace": "DeleteCurrentLine",
-      "capslock_c": "send ^c",
-      "capslock_e": "send {Up}",
-      "capslock_alt_e": "send +{Up}",
-      "capslock_s": "send {Left}",
-      "capslock_alt_s": "send +{Left}",
-      "capslock_f": "send {Right}",
-      "capslock_alt_f": "send +{Right}",
-      "capslock_d": "send {Down}",
-      "capslock_alt_d": "send +{Down}",
+      "capslock_c": "send ^/",
+      "capslock_e": "send {Enter}",
+      "capslock_d": "send {Del}",
+      "capslock_alt_d": "send {BS}",
       "capslock_y": "send +8",
-      "capslock_alt_y": "send +5",
+      "capslock_shift_y": "send +5",
       "capslock_u": "send +1",
-      "capslock_alt_u": "send +2",
+      "capslock_shift_u": "send +2",
       "capslock_h": "send {Left}",
-      "capslock_alt_h": "send +{Left}",
+      "capslock_shift_h": "send +{Left}",
       "capslock_j": "send {Down}",
-      "capslock_alt_j": "send +{Down}",
+      "capslock_shift_j": "send +{Down}",
       "capslock_k": "send {Up}",
-      "capslock_alt_k": "send +{Up}",
+      "capslock_shift_k": "send +{Up}",
       "capslock_l": "send {Right}",
-      "capslock_alt_l": "send +{Right}",
+      "capslock_shift_l": "send +{Right}",
       "capslock_p": "send +7",
-      "capslock_alt_p": "send +3",
+      "capslock_shift_p": "send +3",
       "capslock_i": "send ^{Left}",
-      "capslock_alt_i": "send +^{Left}",
+      "capslock_shift_i": "send +^{Left}",
       "capslock_o": "send ^{Right}",
-      "capslock_alt_o": "send +^{Right}",
+      "capslock_shift_o": "send +^{Right}",
       "capslock_9": "send [",
-      "capslock_alt_9": "send {{}",
+      "capslock_shift_9": "send {{}",
       "capslock_0": "send ]",
-      "capslock_alt_0": "send {}}",
+      "capslock_shift_0": "send {}}",
       "capslock_n": "send ^{BS}",
-      "capslock_alt_n": "send +{Home}{Del}",
+      "capslock_shift_n": "send +{Home}{Del}",
       "capslock_m": "send ^{Del}",
-      "capslock_alt_m": "send +{End}{Del}",
+      "capslock_shift_m": "send +{End}{Del}",
       "capslock_,": "send {Home}",
-      "capslock_alt_,": "send +{Home}",
+      "capslock_shift_,": "send +{Home}",
       "capslock_.": "send {End}",
-      "capslock_alt_.": "send +{End}",
+      "capslock_shift_.": "send +{End}",
       "capslock_;": "send _",
-      "capslock_alt_;": "send -",
+      "capslock_shift_;": "send -",
       "capslock_'": "send =",
-      "capslock_alt_'": "send +=",
+      "capslock_shift_'": "send +=",
       "capslock_/": "send \\",
-      "capslock_alt_/": "send +\\"
+      "capslock_shift_/": "send +\\"
     },
     "custom": {}
   }
