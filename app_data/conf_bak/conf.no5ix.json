@@ -130,8 +130,8 @@
       },
       "TopHalfRightEdge": {
         "ctrl_8": "OpenFileExplorer",
-        "wheeldown": "GoBottom",
-        "wheelup": "GoTop",
+        "wheeldown": "send {PgDn}",
+        "wheelup": "send {PgUp}",
         "MButton": "MinWindow"
       },
       "BottomHalfLeftEdge": {
@@ -192,8 +192,8 @@
       "capslock_backspace": "DeleteCurrentLine",
       "capslock_c": "send ^/",
       "capslock_e": "send {Enter}",
-      "capslock_s": "send {WheelLeft}",
-      "capslock_shift_s": "send {WheelRight}",
+      "capslock_s": "send {WheelRight}",
+      "capslock_shift_s": "send {WheelLeft}",
       "capslock_f": "send ^+{Home}",
       "capslock_shift_f": "send ^+{End}",
       "capslock_d": "send {Del}",
