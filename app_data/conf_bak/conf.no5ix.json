@@ -22,7 +22,7 @@
     "enable": 1,
     "buildin": {
       "Default": [
-        "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l="
+        "https://www.baidu.com/#ie=UTF-8&wd=REPLACEME"
       ],
       "Google & Baidu": [
         "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l=",
@@ -112,7 +112,7 @@
         "hover": "JumpToNextTab"
       },
       "LeftBottomCorner": {
-        "hover": "send {LWin}"
+        "hover": "win"
       },
       "RightBottomCorner": {
         "hover": "GotoPreApp"
@@ -130,8 +130,8 @@
       },
       "TopHalfRightEdge": {
         "ctrl_8": "OpenFileExplorer",
-        "wheeldown": "send {PgDn}",
-        "wheelup": "send {PgUp}",
+        "wheeldown": "PgDn",
+        "wheelup": "PgUp",
         "MButton": "MinWindow"
       },
       "BottomHalfLeftEdge": {
@@ -161,14 +161,14 @@
       "RightHalfTopEdge": {
         "ctrl_8": "MoveWindowToRightSide",
         "MButton": "MoveWindowToRightSide",
-        "wheeldown": "send {PgDn}",
-        "wheelup": "send {PgUp}"
+        "wheeldown": "PgDn",
+        "wheelup": "PgUp"
       },
       "RightHalfBottomEdge": {
         "ctrl_8": "OpenActionCenter",
         "MButton": "MoveWindowToRightSide",
-        "wheeldown": "send {PgDn}",
-        "wheelup": "send {PgUp}"
+        "wheeldown": "PgDn",
+        "wheelup": "PgUp"
       }
     }
   },
@@ -176,64 +176,64 @@
     "enable": 1,
     "buildin": {
       "rshift": "SwitchInputMethodAndDeleteLeft",
-      "capslock": "send {Esc}",
-      "alt_space": "QuickEntry.ShowQuickEntryMenu",
+      "capslock": "Esc",
+      "capslock_c": "ctrl_/",
+      "capslock_e": "Enter",
+      "capslock_s": "WheelRight",
+      "capslock_shift_s": "WheelLeft",
+      "capslock_f": "ctrl_shift_Home",
+      "capslock_shift_f": "ctrl_shift_End",
+      "capslock_d": "Del",
+      "capslock_shift_d": "BS",
+      "shift_space": "ShowSuxMenu",
       "ctrl_8": "SimulateClickDown",
       "ctrl_shift_alt_m": "MaxMinWindow",
       "capslock_w": "SelectCurrentWord",
       "capslock_shift_w": "SelectCurrentLine",
       "capslock_`": "SwitchCapsState",
       "capslock_tab": "IndentCurrentLine",
-      "capslock_v": "send +{Ins}",
-      "capslock_shift_v": "send +6",
-      "capslock_r": "send ^y",
+      "capslock_v": "shift_ins",
+      "capslock_shift_v": "shift_6",
+      "capslock_r": "ctrl_y",
       "capslock_enter": "InsertLineBelow",
       "capslock_shift_enter": "InsertLineAbove",
       "capslock_backspace": "DeleteCurrentLine",
-      "capslock_c": "send ^/",
-      "capslock_e": "send {Enter}",
-      "capslock_s": "send {WheelRight}",
-      "capslock_shift_s": "send {WheelLeft}",
-      "capslock_f": "send ^+{Home}",
-      "capslock_shift_f": "send ^+{End}",
-      "capslock_d": "send {Del}",
-      "capslock_shift_d": "send {BS}",
-      "capslock_y": "send +8",
-      "capslock_shift_y": "send +5",
-      "capslock_u": "send +1",
-      "capslock_shift_u": "send +2",
-      "capslock_h": "send {Left}",
-      "capslock_shift_h": "send +{Left}",
-      "capslock_j": "send {Down}",
-      "capslock_shift_j": "send +{Down}",
-      "capslock_k": "send {Up}",
-      "capslock_shift_k": "send +{Up}",
-      "capslock_l": "send {Right}",
-      "capslock_shift_l": "send +{Right}",
-      "capslock_p": "send +7",
-      "capslock_shift_p": "send +3",
-      "capslock_i": "send ^{Left}",
-      "capslock_shift_i": "send +^{Left}",
-      "capslock_o": "send ^{Right}",
-      "capslock_shift_o": "send +^{Right}",
-      "capslock_9": "send [",
-      "capslock_shift_9": "send {{}",
-      "capslock_0": "send ]",
-      "capslock_shift_0": "send {}}",
-      "capslock_n": "send ^{BS}",
-      "capslock_shift_n": "send +{Home}{Del}",
-      "capslock_m": "send ^{Del}",
-      "capslock_shift_m": "send +{End}{Del}",
-      "capslock_,": "send {Home}",
-      "capslock_shift_,": "send +{Home}",
-      "capslock_.": "send {End}",
-      "capslock_shift_.": "send +{End}",
-      "capslock_;": "send _",
-      "capslock_shift_;": "send -",
-      "capslock_'": "send =",
-      "capslock_shift_'": "send +=",
-      "capslock_/": "send \\",
-      "capslock_shift_/": "send +\\"
+      "capslock_y": "shift_8",
+      "capslock_shift_y": "shift_5",
+      "capslock_u": "shift_1",
+      "capslock_shift_u": "shift_2",
+      "capslock_h": "left",
+      "capslock_shift_h": "shift_left",
+      "capslock_j": "down",
+      "capslock_shift_j": "shift_down",
+      "capslock_k": "up",
+      "capslock_shift_k": "shift_up",
+      "capslock_l": "right",
+      "capslock_shift_l": "shift_right",
+      "capslock_p": "shift_7",
+      "capslock_shift_p": "shift_3",
+      "capslock_i": "ctrl_left",
+      "capslock_shift_i": "shift_ctrl_left",
+      "capslock_o": "ctrl_right",
+      "capslock_shift_o": "shift_ctrl_right",
+      "capslock_9": "[",
+      "capslock_shift_9": "{",
+      "capslock_0": "]",
+      "capslock_shift_0": "}",
+      "capslock_n": "ctrl_bs",
+      "capslock_shift_n": "shift_home_del",
+      "capslock_m": "ctrl_del",
+      "capslock_shift_m": "shift_end_del",
+      "capslock_,": "home",
+      "capslock_shift_,": "shift_home",
+      "capslock_.": "end",
+      "capslock_shift_.": "shift_end",
+      "capslock_;": "_",
+      "capslock_shift_;": "-",
+      "capslock_'": "=",
+      "capslock_shift_'": "shift_=",
+      "capslock_/": "\\",
+      "capslock_shift_/": "shift_\\"
     },
     "custom": {}
   }
