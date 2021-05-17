@@ -188,6 +188,7 @@
       "alt_space": "ShowSuxMenu",
       "ctrl_8": "SimulateClickDown",
       "ctrl_shift_alt_m": "MaxMinWindow",
+      "capslock_g": "SaveSelectedFilePathToClipboard",
       "capslock_w": ["ctrl_left", "ctrl_shift_right"],
       "capslock_shift_w": ["home", "shift_end"],
       "capslock_`": "SwitchCapsState",
