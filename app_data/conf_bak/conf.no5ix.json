@@ -126,13 +126,11 @@
         "ctrl_8": "C:\\Program Files (x86)\\Netease\\CloudMusic\\cloudmusic.exe",
         "wheeldown": "GoBottom",
         "wheelup": "GoTop",
-        "MButton": "MaxWindow"
       },
       "TopHalfRightEdge": {
         "ctrl_8": "OpenFileExplorer",
         "wheeldown": "PgDn",
         "wheelup": "PgUp",
-        "MButton": "MinWindow"
       },
       "BottomHalfLeftEdge": {
         "ctrl_8": "ReopenLastTab",
