@@ -176,6 +176,7 @@
       "capslock": "Esc",
       "capslock_c": "ctrl_/",
       "capslock_e": "Enter",
+      "capslock_shift_e": "up",
       "capslock_s": "WheelLeft",
       "capslock_shift_s": "WheelRight",
       "capslock_f": "ctrl_shift_Home",
