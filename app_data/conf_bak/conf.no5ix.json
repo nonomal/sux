@@ -100,7 +100,10 @@
       "gc@": "@gmail.com",
       "16@": "@163.com"
     },
-    "custom": {}
+    "custom": {
+      "17": "17777335101",
+      "no": "no5ix@foxmail.com"
+    }
   },
   "hot-corner": {
     "action": {
@@ -172,6 +175,8 @@
   "hotkey": {
     "enable": 1,
     "buildin": {
+      "capslock_q": "ScreenShot",
+      "capslock_shift_q": "ScreenShotAndSuspend",
       "rshift": "SwitchInputMethodAndDeleteLeft",
       "capslock": "Esc",
       "capslock_c": "ctrl_/",
