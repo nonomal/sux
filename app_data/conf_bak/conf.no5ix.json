@@ -182,6 +182,7 @@
       "capslock_shift_q": "ScreenShotAndSuspend",
       "rshift": "SwitchInputMethodAndDeleteLeft",
       "capslock": "Esc",
+      "doublehit_ralt": "SwapWinCtrlShiftAlt",
       "capslock_c": "ctrl_/",
       "capslock_e": "Enter",
       "capslock_shift_e": "up",
