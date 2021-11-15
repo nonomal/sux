@@ -196,8 +196,8 @@
       "capslock_shift_c": "SaveSelectedFilePathToClipboard",
       "ctrl_8": "SimulateClickDown",
       "ctrl_shift_alt_m": "MaxMinWindow",
-      "capslock_w": ["ctrl_left", "ctrl_shift_right", "ctrl_c"],
-      "capslock_shift_w": ["home", "shift_end", "ctrl_c"],
+      "capslock_w": "SelectCurrentWord",
+      "capslock_shift_w": ["home", "shift_end"],
       "capslock_`": "SwitchCapsState",
       "capslock_tab": ["home", "tab"],
       "capslock_v": "shift_ins",
@@ -245,4 +245,5 @@
     },
     "custom": {}
   }
+} }
 }
