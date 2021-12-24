@@ -180,9 +180,9 @@
     "buildin": {
       "capslock_q": "ScreenShot",
       "capslock_shift_q": "ScreenShotAndSuspend",
-      "rshift": "SwitchInputMethodAndDeleteLeft",
+      "ralt": "SwitchInputMethodAndDeleteLeft",
       "capslock": "Esc",
-      "doublehit_ralt": "SwapWinCtrlShiftAlt",
+      "doublehit_rctrl": "SwapWinCtrlShiftAlt",
       "capslock_c": "ctrl_/",
       "capslock_e": "Enter",
       "capslock_shift_e": "up",
