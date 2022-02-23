@@ -175,14 +175,23 @@
       }
     }
   },
+  "enable_middle_mouse_button_in_idea": 1,
   "hotkey": {
     "enable": 1,
+    "capslock_disable_exe_list": [
+      "WeChat.exe",
+      "MyPopo.exe"
+    ],
     "buildin": {
+      "capslock": "Esc",
       "capslock_q": "ScreenShot",
       "capslock_shift_q": "ScreenShotAndSuspend",
       "ralt": "SwitchInputMethodAndDeleteLeft",
-      "capslock": "Esc",
       "doublehit_rctrl": "SwapWinCtrlShiftAlt",
+      "win_c": "SwapWinCtrlShiftAlt",
+      "win_p": "SwapWinCtrlShiftAlt",
+      "win_z": "SwapWinCtrlShiftAlt",
+      "win_v": "SwapWinCtrlShiftAlt",
       "capslock_c": "ctrl_/",
       "capslock_e": "Enter",
       "capslock_shift_e": "up",
