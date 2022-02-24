@@ -46,8 +46,8 @@
       "Bilibili": [
         "search.bilibili.com/all?keyword=REPLACEME"
       ],
-      "Jingdong": [
-        "https://search.jd.com/Search?keyword=REPLACEME&enc=utf-8"
+      "Google Translate": [
+        "https://translate.google.cn/?hl=zh-CN&tab=TT&sl=auto&tl=en&text=REPLACEME&op=translate"
       ],
       "Youdao": [
         "https://www.youdao.com/w/REPLACEME"
@@ -61,17 +61,17 @@
       "Youtube": [
         "https://www.youtube.com/results?search_query=REPLACEME"
       ],
-      "Pornhub": [
-        "https://www.pornhub.com/video/search?search=REPLACEME"
+      "Xvideos": [
+        "https://www.xvideos.com/?k=REPLACEME"
       ],
-      "Google Translate": [
-        "https://translate.google.cn/?hl=zh-CN&tab=TT&sl=auto&tl=en&text=REPLACEME&op=translate"
+      "Jingdong": [
+        "https://search.jd.com/Search?keyword=REPLACEME&enc=utf-8"
       ],
       "Youku": [
         "https://so.youku.com/search_video/q_REPLACEME?searchfrom=1"
       ],
-      "Xvideos": [
-        "https://www.xvideos.com/?k=REPLACEME"
+      "Pornhub": [
+        "https://www.pornhub.com/video/search?search=REPLACEME"
       ]
     },
     "custom": {}
