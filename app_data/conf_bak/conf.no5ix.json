@@ -175,7 +175,7 @@
       }
     }
   },
-  "enable_middle_mouse_button_in_idea": 1,
+  "enable_middle_mouse_button_in_idea": 0,
   "hotkey": {
     "enable": 1,
     "capslock_disable_exe_list": [
