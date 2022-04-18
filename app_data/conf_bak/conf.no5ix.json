@@ -185,6 +185,7 @@
     "buildin": {
       "alt_space": "ShowSuxMenu",
       "capslock": "Esc",
+      "doublehit_capslock": "ShowSuxMenu",
       "capslock_q": "ScreenShot",
       "capslock_shift_q": "ScreenShotAndSuspend",
       "ralt": "SwitchInputMethodAndDeleteLeft",
