@@ -200,8 +200,8 @@
       ],
       "capslock_v": "shift_ins",
       "capslock_shift_v": "shift_6",
-      "capslock_r": "ctrl_y",
-      "capslock_g": "QuickEntry_ReplaceText_Menu_Click",
+      "capslock_g": "ctrl_y",
+      "capslock_r": "QuickEntry_ReplaceText_Menu_Click",
       "capslock_backspace": [
         "home",
         "shift_end",
