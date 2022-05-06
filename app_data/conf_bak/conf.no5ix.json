@@ -21,58 +21,47 @@
   "search-plus": {
     "enable": 1,
     "buildin": {
-      "Default": [
-        "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l="
-      ],
-      "Google & Baidu": [
-        "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l=",
-        "https://www.baidu.com/#ie=UTF-8&wd=REPLACEME"
-      ],
-      "Google": [
-        "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l="
-      ],
-      "Baidu": [
-        "https://www.baidu.com/#ie=UTF-8&wd=REPLACEME"
-      ],
-      "Bing": [
-        "https://www.bing.com/search?q=REPLACEME&qs=n&FORM=BESBTB&sp=-1&pq=REPLACEME&sc=8-8&sk=&cvid=278DBE315C2D48E0AFC1B7B88E5878F3&ensearch=1"
-      ],
-      "Douban": [
-        "https://www.douban.com/search?q=REPLACEME"
-      ],
-      "Zhihu": [
-        "https://www.zhihu.com/search?type=content&q=REPLACEME"
-      ],
-      "Bilibili": [
-        "search.bilibili.com/all?keyword=REPLACEME"
-      ],
-      "Google Translate": [
-        "https://translate.google.cn/?hl=zh-CN&tab=TT&sl=auto&tl=en&text=REPLACEME&op=translate"
-      ],
-      "Youdao": [
-        "https://www.youdao.com/w/REPLACEME"
-      ],
-      "Github": [
-        "https://github.com/search?q=REPLACEME"
-      ],
-      "Stackoverflow": [
-        "https://stackoverflow.com/search?q=REPLACEME"
-      ],
-      "Youtube": [
-        "https://www.youtube.com/results?search_query=REPLACEME"
-      ],
-      "Xvideos": [
-        "https://www.xvideos.com/?k=REPLACEME"
-      ],
-      "Jingdong": [
-        "https://search.jd.com/Search?keyword=REPLACEME&enc=utf-8"
-      ],
-      "Youku": [
-        "https://so.youku.com/search_video/q_REPLACEME?searchfrom=1"
-      ],
-      "Pornhub": [
-        "https://www.pornhub.com/video/search?search=REPLACEME"
-      ]
+      "Default": {
+        "space": [
+          "https://www.google.com.hk/search?safe=off&site=&source=hp&q=REPLACEME&btnG=Search&oq=&gs_l=",
+          "https://www.baidu.com/#ie=UTF-8&wd=REPLACEME"
+        ]
+      },
+      "Youdao": {
+        "tab": [
+          "https://www.youdao.com/w/REPLACEME"
+        ]
+      },
+      "Youtube": {
+        "e": [
+          "https://www.youtube.com/results?search_query=REPLACEME"
+        ]
+      },
+      "Google Translate": {
+        "a": [
+          "https://translate.google.cn/?hl=zh-CN&tab=TT&sl=auto&tl=en&text=REPLACEME&op=translate"
+        ]
+      },
+      "Douban": {
+        "d": [
+          "https://www.douban.com/search?q=REPLACEME"
+        ]
+      },
+      "Github": {
+        "h": [
+          "https://github.com/search?q=REPLACEME"
+        ]
+      },
+      "Zhihu": {
+        "z": [
+          "https://www.zhihu.com/search?type=content&q=REPLACEME"
+        ]
+      },
+      "Bilibili": {
+        "b": [
+          "search.bilibili.com/all?keyword=REPLACEME"
+        ]
+      }
     },
     "custom": {}
   },
@@ -104,8 +93,6 @@
       "16@": "@163.com"
     },
     "custom": {
-      "17": "17777335101",
-      "no": "no5ix@foxmail.com"
     }
   },
   "hot-corner": {
@@ -185,19 +172,14 @@
     "buildin": {
       "alt_space": "ShowSuxMenu",
       "capslock": "Esc",
-      "doublehit_capslock": "ShowSuxMenu",
       "capslock_q": "ScreenShot",
       "capslock_shift_q": "ScreenShotAndSuspend",
       "ralt": "SwitchInputMethodAndDeleteLeft",
       "doublehit_rctrl": "SwapWinCtrlShiftAlt",
-      "win_c": "SwapWinCtrlShiftAlt",
-      "win_p": "SwapWinCtrlShiftAlt",
-      "win_z": "SwapWinCtrlShiftAlt",
-      "win_v": "SwapWinCtrlShiftAlt",
       "capslock_c": "ctrl_/",
       "capslock_e": "Enter",
       "capslock_shift_e": "up",
-      "capslock_s": "QuickEntry_Translation_Menu_Click",
+      "capslock_t": "QuickEntry_Translation_Menu_Click",
       "capslock_shift_s": "WheelRight",
       "capslock_f": "QuickEntry_Everything_Menu_Click",
       "capslock_shift_f": "ctrl_shift_End",
@@ -207,13 +189,24 @@
       "ctrl_8": "SimulateClickDown",
       "ctrl_shift_alt_m": "MaxMinWindow",
       "capslock_w": "SelectCurrentWord",
-      "capslock_shift_w": ["home", "shift_end"],
+      "capslock_shift_w": [
+        "home",
+        "shift_end"
+      ],
       "capslock_`": "SwitchCapsState",
-      "capslock_tab": ["home", "tab"],
+      "capslock_tab": [
+        "home",
+        "tab"
+      ],
       "capslock_v": "shift_ins",
       "capslock_shift_v": "shift_6",
       "capslock_r": "ctrl_y",
-      "capslock_backspace": ["home", "shift_end", "backspace"],
+      "capslock_g": "QuickEntry_ReplaceText_Menu_Click",
+      "capslock_backspace": [
+        "home",
+        "shift_end",
+        "backspace"
+      ],
       "capslock_y": "shift_8",
       "capslock_shift_y": "shift_5",
       "capslock_u": "shift_1",
