@@ -32,13 +32,18 @@
           "https://www.youdao.com/w/REPLACEME"
         ]
       },
+      "Baidu": {
+        "a": [
+          "https://www.baidu.com/#ie=UTF-8&wd=REPLACEME"
+        ]
+      },
       "Youtube": {
         "e": [
           "https://www.youtube.com/results?search_query=REPLACEME"
         ]
       },
       "Google Translate": {
-        "a": [
+        "g": [
           "https://translate.google.cn/?hl=zh-CN&tab=TT&sl=auto&tl=en&text=REPLACEME&op=translate"
         ]
       },
