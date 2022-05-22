@@ -175,8 +175,7 @@
       "MyPopo.exe"
     ],
     "buildin": {
-      "alt_space": "ShowSuxMenu",
-      "capslock": "Esc",
+      "capslock": "ShowSuxMenu",
       "capslock_q": "ScreenShot",
       "capslock_shift_q": "ScreenShotAndSuspend",
       "ralt": "SwitchInputMethodAndDeleteLeft",
