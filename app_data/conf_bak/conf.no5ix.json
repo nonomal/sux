@@ -171,8 +171,6 @@
   "hotkey": {
     "enable": 1,
     "capslock_disable_exe_list": [
-      "WeChat.exe",
-      "MyPopo.exe"
     ],
     "buildin": {
       "capslock": "ShowSuxMenu",
@@ -181,6 +179,8 @@
       "ralt": "SwitchInputMethodAndDeleteLeft",
       "doublehit_rctrl": "SwapWinCtrlShiftAlt",
       "capslock_c": "ctrl_/",
+      "win_t": "SetWindowOnTop",
+      "win_shift_t": "CancelSetWindowOnTop",
       "capslock_e": "Enter",
       "capslock_shift_e": "up",
       "capslock_t": "QuickEntry_Translation_Menu_Click",
