@@ -171,8 +171,6 @@
   "hotkey": {
     "enable": 1,
     "capslock_disable_exe_list": [
-      "WeChat.exe",
-      "MyPopo.exe"
     ],
     "buildin": {
       "capslock": "ShowSuxMenu",
