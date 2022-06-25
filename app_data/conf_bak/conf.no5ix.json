@@ -179,6 +179,7 @@
       "ralt": "SwitchInputMethodAndDeleteLeft",
       "doublehit_rctrl": "SwapWinCtrlShiftAlt",
       "capslock_c": "ctrl_/",
+      "capslock_s": "SwitchWindowAlwaysOnTop",
       "capslock_e": "Enter",
       "capslock_shift_e": "up",
       "capslock_t": "QuickEntry_Translation_Menu_Click",
