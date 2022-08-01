@@ -173,10 +173,12 @@
     "capslock_disable_exe_list": [
     ],
     "buildin": {
-      "capslock": "ShowSuxMenu",
+      "alt_space": "ShowSuxMenu",
       "capslock_q": "ScreenShot",
       "capslock_shift_q": "ScreenShotAndSuspend",
-      "ralt": "SwitchInputMethodAndDeleteLeft",
+      "rshift": "SwitchInputMethodAndDeleteLeft",
+      "wheeldown": "wheelup",
+      "wheelup": "wheeldown",
       "doublehit_rctrl": "SwapWinCtrlShiftAlt",
       "capslock_c": "ctrl_/",
       "capslock_s": "SwitchWindowAlwaysOnTop",
