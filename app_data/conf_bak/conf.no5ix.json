@@ -173,6 +173,7 @@
     "capslock_disable_exe_list": [
     ],
     "buildin": {
+      "capslock": "nil",
       "alt_space": "ShowSuxMenu",
       "capslock_q": "ScreenShot",
       "capslock_shift_q": "ScreenShotAndSuspend",
