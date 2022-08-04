@@ -177,7 +177,7 @@
       "alt_space": "ShowSuxMenu",
       "capslock_q": "ScreenShot",
       "capslock_shift_q": "ScreenShotAndSuspend",
-      "rshift": "SwitchInputMethodAndDeleteLeft",
+      "ralt": "SwitchInputMethodAndDeleteLeft",
       "wheeldown": "wheelup",
       "wheelup": "wheeldown",
       "doublehit_rctrl": "SwapWinCtrlShiftAlt",
