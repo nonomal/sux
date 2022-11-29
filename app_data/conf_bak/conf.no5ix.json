@@ -1,5 +1,6 @@
 ﻿{
   "File-Description": "你可以在custom块里覆盖所有的buildin(内置)配置或者直接修改buildin配置, 改了之后重启sux生效.You can override all the buildin conf at custom block or buildin conf itself, take effect after sux restart. ",
+  "enable_clear_cache_on_exit": 0,
   "theme": {
     "dark": {
       "sux_width": 620,
@@ -166,7 +167,6 @@
       }
     }
   },
-  "enable_middle_mouse_button_in_idea": 0,
   "hotkey": {
     "enable": 1,
     "capslock_disable_exe_list": [
@@ -250,5 +250,6 @@
       "capslock_shift_/": "shift_\\"
     },
     "custom": {}
-  }
+  },
+  "enable_middle_mouse_button_in_idea": 0
 }
