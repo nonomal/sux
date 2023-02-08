@@ -75,7 +75,7 @@
     "custom": {
       "sw": "StartSuxAhkWithWin",
       "rd": "ReloadSux",
-      "ahk": "https://wyagd001.github.io/zh-cn/docs/AutoHotkey.htm",
+      "ahk": "https://wyagd001.github.io/zh-cn/docs/index.htm",
       "blog": "https://hulinhong.com",
       "pm02trunk": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\svn_update_trunk.bat",
       "pm02misc": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\svn_update_misc.bat"
