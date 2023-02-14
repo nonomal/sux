@@ -77,8 +77,9 @@
       "rd": "ReloadSux",
       "ahk": "https://wyagd001.github.io/zh-cn/docs/index.htm",
       "blog": "https://hulinhong.com",
-      "pm02trunk": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\svn_update_trunk.bat",
-      "pm02misc": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\svn_update_misc.bat"
+      "update_pm02trunk": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\svn_update_trunk.bat",
+      "update_pm02misc": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\svn_update_misc.bat",
+      "close_popo": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\close_popo.bat"
     }
   },
   "replace-text": {
