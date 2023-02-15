@@ -168,7 +168,7 @@
     "buildin": {
       "capslock": "nil",
       "alt_space": "ShowSuxMenu",
-      "capslock_q": "ctrl_shift_alt_a",
+      "capslock_q": "ctrl_shift_alt_q",
       "capslock_shift_q": "ScreenShotAndSuspend",
       "rshift": "SwitchInputMethodAndDeleteLeft",
       "wheeldown": "wheelup",
