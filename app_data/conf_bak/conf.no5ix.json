@@ -83,7 +83,11 @@
       "Jenkins-trunk_2_rc": "http://pm02de.pangu.netease.com/view/trunk2rc/job/trunk_2_rc_server_flow/",
       "Jenkins-trunk_2_rc_data": "http://pm02st.pangu.netease.com/view/trunk2rc/",
       "Jenkins-外服发布": "http://pm02st.pangu.netease.com/view/%E5%A4%96%E6%9C%8D%E5%8F%91%E5%B8%83/",
-      "阿拉丁": "https://aladdin.nie.netease.com/_pm02/aladdin/processes?_sort=category&__with_collector=my&__used_scene=all&_num=20&_page=1"
+      "阿拉丁": "https://aladdin.nie.netease.com/_pm02/aladdin/processes?_sort=category&__with_collector=my&__used_scene=all&_num=20&_page=1",
+      "阿拉丁-runscript_one": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/processes/26624/execute",
+      "阿拉丁-hotfix": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/processes/10647/execute",
+      "阿拉丁-reloadsomedata": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/processes/26623/execute",
+      "阿拉丁-reloadsomedata+hotfix": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/processes/26725/execute"
     }
   },
   "replace-text": {
