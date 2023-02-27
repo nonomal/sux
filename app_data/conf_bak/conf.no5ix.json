@@ -1,6 +1,9 @@
 ﻿{
   "File-Description": "你可以在custom块里覆盖所有的buildin(内置)配置或者直接修改buildin配置, 改了之后重启sux生效.You can override all the buildin conf at custom block or buildin conf itself, take effect after sux restart. ",
   "enable_clear_cache_on_exit": 0,
+  "hide_tray_icons": [
+    "QQScreenShot.exe"
+  ],
   "theme": {
     "dark": {
       "sux_width": 620,
@@ -176,7 +179,7 @@
     "buildin": {
       "capslock": "nil",
       "alt_space": "ShowSuxMenu",
-      "capslock_q": "ctrl_shift_alt_q",
+      "capslock_q": "ctrl_alt_q",
       "capslock_shift_q": "ScreenShotAndSuspend",
       "rshift": "SwitchInputMethodAndDeleteLeft",
       "wheeldown": "wheelup",
