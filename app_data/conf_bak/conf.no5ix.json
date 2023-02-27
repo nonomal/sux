@@ -180,7 +180,7 @@
       "capslock": "nil",
       "alt_space": "ShowSuxMenu",
       "capslock_q": "ctrl_alt_q",
-      "capslock_shift_q": "ScreenShotAndSuspend",
+      "capslock_shift_q": "ctrl_alt_shift_q",
       "rshift": "SwitchInputMethodAndDeleteLeft",
       "wheeldown": "wheelup",
       "wheelup": "wheeldown",
