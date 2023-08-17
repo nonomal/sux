@@ -77,21 +77,17 @@
     },
     "custom": {
       "sw": "StartSuxAhkWithWin",
-      "qqScreenShot": "BootQQScreenShotStandalone",
-      "rd": "ReloadSux",
       "ahk": "https://wyagd001.github.io/zh-cn/docs/index.htm",
+      "rd": "ReloadSux",
       "blog": "https://hulinhong.com",
-      "close_popo": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\close_popo.bat",
+      "功能维护速查表": "https://confluence.leihuo.netease.com/pages/viewpage.action?pageId=182156877",
+      "看板": "https://pm02.pm.netease.com/v6/my",
       "svn-pm02trunk": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\svn_update_trunk.bat",
       "svn-pm02misc": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\svn_update_misc.bat",
       "Jenkins-trunk_2_rc": "http://pm02de.pangu.netease.com/view/trunk2rc/job/trunk_2_rc_server_flow/",
-      "Jenkins-trunk_2_rc_data": "http://pm02st.pangu.netease.com/view/trunk2rc/",
       "Jenkins-外服发布": "http://pm02st.pangu.netease.com/view/%E5%A4%96%E6%9C%8D%E5%8F%91%E5%B8%83/",
       "阿拉丁": "https://aladdin.nie.netease.com/_pm02/aladdin/processes?_sort=category&__with_collector=my&__used_scene=all&_num=20&_page=1",
-      "阿拉丁-runscript_one": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/processes/26624/execute",
-      "阿拉丁-hotfix": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/processes/10647/execute",
-      "阿拉丁-reloadsomedata": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/processes/26623/execute",
-      "阿拉丁-reloadsomedata+hotfix": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/processes/26725/execute"
+      "close_popo": "C:\\Users\\hulinhong\\Documents\\job_proj\\PM02\\close_popo.bat",
     }
   },
   "replace-text": {
@@ -178,7 +174,7 @@
     "capslock_disable_exe_list": [
     ],
     "buildin": {
-      "capslock": "SwitchCapsState",
+      "capslock": "nil",
       "alt_space": "ShowSuxMenu",
       "capslock_q": "ctrl_alt_shift_q",
       "capslock_shift_q": "ScreenShotAndSuspend",
@@ -192,6 +188,7 @@
       "capslock_e": "Enter",
       "capslock_shift_e": "up",
       "capslock_t": "QuickEntry_Translation_Menu_Click",
+      "ctrl_9": "QuickEntry_Translation_Menu_Click",
       "capslock_shift_s": "WheelRight",
       "capslock_f": "QuickEntry_Everything_Menu_Click",
       "capslock_shift_f": "ctrl_shift_End",
