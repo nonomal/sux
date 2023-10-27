@@ -182,7 +182,7 @@
       "rshift": "SwitchInputMethodAndDeleteLeft",
       "wheeldown": "wheelup",
       "wheelup": "wheeldown",
-      "doublehit_rctrl": "SwapWinCtrlShiftAlt",
+      "ctrl_shift_alt_s": "SwapWinCtrlShiftAlt",
       "capslock_c": "ctrl_/",
       "capslock_s": "SwitchWindowAlwaysOnTop",
       "capslock_e": "Enter",
