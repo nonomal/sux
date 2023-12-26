@@ -177,8 +177,7 @@
     "buildin": {
       "capslock": "nil",
       "alt_space": "ShowSuxMenu",
-      "capslock_q": "TryWechatScreenShot",
-      "capslock_shift_q": "ScreenShotAndSuspend",
+      "capslock_q": "ctrl_shift_alt_q",
       "capslock_ctrl_q": "ScreenShot",
       "rshift": "SwitchInputMethodAndDeleteLeft",
       "wheeldown": "wheelup",
