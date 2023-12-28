@@ -178,7 +178,6 @@
       "capslock": "nil",
       "alt_space": "ShowSuxMenu",
       "capslock_q": "ctrl_shift_alt_q",
-      "capslock_ctrl_q": "ScreenShot",
       "rshift": "SwitchInputMethodAndDeleteLeft",
       "wheeldown": "wheelup",
       "wheelup": "wheeldown",
@@ -210,7 +209,8 @@
       "capslock_v": "shift_ins",
       "capslock_shift_v": "shift_6",
       "capslock_g": "ctrl_y",
-      "capslock_r": "QuickEntry_ReplaceText_Menu_Click",
+      "capslock_r": "ReplaceTextSlashSlash",
+      "capslock_shift_r": "ReplaceTextCommaComma",
       "capslock_backspace": [
         "home",
         "shift_end",
