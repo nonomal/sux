@@ -87,6 +87,8 @@
       "Jenkins-外服一条龙": "http://pm02st.pangu.netease.com/view/%E5%A4%96%E6%9C%8D%E5%8F%91%E5%B8%83/job/luna_publish_auto_hotfix/build?delay=0sec",
       "阿拉丁": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/executions?status=&process_id=&execution_type=all&time$start_time$range=&timeLimit=latestYear",
       "close_popo": "I:\\job\\proj\\close_popo.bat",
+      "send_wait_3_min": "SendWait3Min",
+      "send_review_apply_msg": "SendReviewApplyMsg",
     }
   },
   "replace-text": {
