@@ -172,6 +172,7 @@
       }
     }
   },
+  "enable_pixpin_to_screenshot": 0,
   "hotkey": {
     "enable": 1,
     "capslock_disable_exe_list": [
@@ -179,8 +180,8 @@
     "buildin": {
       "capslock": "nil",
       "alt_space": "ShowSuxMenu",
-      "capslock_q": "ctrl_alt_q",
-      "capslock_shift_q": "ctrl_shift_q",
+      "capslock_q": "ScreenShot",
+      "capslock_shift_q": "ScreenShotAndSuspend",
       "rshift": "SwitchInputMethodAndDeleteLeft",
       "wheeldown": "wheelup",
       "wheelup": "wheeldown",
