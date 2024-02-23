@@ -164,6 +164,7 @@
             "capslock": "nil",
             "alt_space": "ShowSuxMenu",
             "capslock_q": "ScreenShot",
+            "ctrl_shift_alt_0": "ToggleNetEaseMusicAndSetSound50",
             "capslock_shift_q": "ScreenShotAndSuspend",
             "rshift": "SwitchInputMethodAndDeleteLeft",
             "wheeldown": "wheelup",
