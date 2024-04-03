@@ -57,23 +57,23 @@
         "buildin": {
             "cmd": "cmd.exe",
             "git": "C:\\Program Files\\Git\\bin\\bash.exe",
-            "sux": "https://github.com/no5ix/sux"
+            "sux": "https://github.com/no5ix/sux",
+            "sw": "StartSuxAhkWithWin",
+            "rd": "ReloadSux"
         },
         "custom": {
-            "sw": "StartSuxAhkWithWin",
-            "ahk": "https://wyagd001.github.io/zh-cn/docs/index.htm",
-            "rd": "ReloadSux",
-            "blog": "https://hulinhong.com",
-            "功能维护速查表": "https://confluence.leihuo.netease.com/pages/viewpage.action?pageId=182156877",
+            "work_handover": "https://confluence.leihuo.netease.com/pages/viewpage.action?pageId=200373671",
+            "sync_share": "I:\\job\\proj\\sync_share.bat",
+            "阿拉丁": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/executions?status=&process_id=&execution_type=all&time$start_time$range=&timeLimit=latestYear",
             "看板": "https://pm02.pm.netease.com/v6/my",
             "svn-pm02trunk": "I:\\job\\proj\\svn_update_trunk.bat",
             "svn-pm02misc": "I:\\job\\proj\\svn_update_misc.bat",
             "Jenkins-trunk_2_rc": "http://pm02de.pangu.netease.com/view/trunk2rc/job/trunk_2_rc_server_flow/build?delay=0sec",
             "Jenkins-外服一条龙": "http://pm02st.pangu.netease.com/view/%E5%A4%96%E6%9C%8D%E5%8F%91%E5%B8%83/job/luna_publish_auto_hotfix/build?delay=0sec",
-            "阿拉丁": "https://sa.nie.netease.com/console/aladdin2/idc/_pm02/aladdin/executions?status=&process_id=&execution_type=all&time$start_time$range=&timeLimit=latestYear",
-            "close_popo": "I:\\job\\proj\\close_popo.bat",
-            "send_wait_3_min": "SendWait3Min",
-            "send_review_apply_msg": "SendReviewApplyMsg"
+            "功能维护速查表": "https://confluence.leihuo.netease.com/pages/viewpage.action?pageId=182156877",
+            "send_review_apply_msg": "SendReviewApplyMsg",
+            "send_ask_tese_data_merge": "SendAskTeseDataMerge",
+            "send_wait_3_min": "SendWait3Min"
         }
     },
     "replace-text": {
@@ -163,6 +163,7 @@
         "buildin": {
             "capslock": "nil",
             "alt_space": "ShowSuxMenu",
+            "capslock_z": "GetActiveWindowAhkClassName",
             "capslock_q": "ScreenShot",
             "ctrl_shift_alt_0": "ToggleNetEaseMusicAndSetSound30",
             "capslock_shift_q": "ScreenShotAndSuspend",
